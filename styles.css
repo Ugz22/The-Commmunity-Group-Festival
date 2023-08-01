@@ -1,0 +1,112 @@
+header {
+	background-color: #EDDA74;
+	padding: 10px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+footer {
+	background-color: #777;
+	padding: 0px;
+	text-align: center;
+	color: white;
+}
+
+
+body {
+	background-image:  url('festival banner.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+data {
+  float: right;
+  padding: 20px;
+  width: 40%;
+  background-color: #F0E68C;
+  height: 500px; 
+}
+
+
+nav {
+	float: left;
+	height:500px;
+	width: 10%;
+	background: #E8E4C9;
+	padding: 0px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+	text-align: center;
+	color: #FF2400;
+}
+
+
+data {
+	text-align: left;
+}
+
+sub {
+	text-align: right;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+footer {
+	background-color: #777;
+	padding: 0px;
+	text-align: center;
+	color: white;
+}
